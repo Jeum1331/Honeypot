@@ -13,7 +13,7 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
 1. **Deploy Ubuntu 24.04 on Vultr**
    - Log in to your Vultr account.
    - Deploy a new cloud instance with Ubuntu 24.04.
-   - Ensure the instance has sufficient resources (recommended: at least 4GB RAM and 2 vCPUs).
+   - Ensure the instance has sufficient resources (recommended: at least 8GB RAM and 4 vCPUs).
 
 2. **Connect to the Server**
    - Use SSH to access the server:
