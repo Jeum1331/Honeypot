@@ -1,33 +1,63 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-  
-</head>
-<body>
-    <h1>T-Pot Honeypot Deployment</h1>
-    <p>This project sets up a honeypot using <a href="https://github.com/telekom-security/tpotce">T-Pot</a> on a cloud instance.</p>
-    
-  <h2>Deployment Details</h2>
-    <ul>
-        <li><strong>Cloud Provider:</strong> Vultr</li>
-        <li><strong>Operating System:</strong> Ubuntu 24.04</li>
-        <li><strong>Honeypot Framework:</strong> T-Pot</li>
-        <li><strong>Installation Guide Used:</strong> <a href="https://github.com/telekom-security/tpotce">T-Pot CE GitHub</a></li>
-    </ul>
-    
-   <h2>Installation Steps</h2>
-    <ol>
-        <li>Deploy a new virtual machine on Vultr with Ubuntu 24.04.</li>
-        <li>Follow the setup guide from the T-Pot GitHub repository.</li>
-        <li>Configure network and security settings as required.</li>
-        <li>Monitor and analyze incoming threats using T-Pot's built-in dashboards.</li>
-    </ol>
-    
-  <h2>Usage</h2>
-    <p>Once deployed, you can access the T-Pot dashboard to analyze logged attacks and gain insights into potential threats.</p>
-    
-  <h2>References</h2>
-    <p>For detailed documentation and troubleshooting, refer to the official <a href="https://github.com/telekom-security/tpotce">T-Pot GitHub Repository</a>.</p>
-</body>
-</html>
+# Honeypot Deployment with T-Pot on Vultr
+
+## Overview
+This project involves setting up a Honeypot using [T-Pot](https://github.com/telekom-security/tpotce) on a cloud-based instance. The deployment was carried out on [Vultr](https://www.vultr.com/) using an Ubuntu 24.04 server.
+
+## Prerequisites
+- A Vultr account
+- A deployed Ubuntu 24.04 server instance
+- SSH access to the server
+
+## Installation Steps
+
+1. **Deploy Ubuntu 24.04 on Vultr**
+   - Log in to your Vultr account.
+   - Deploy a new cloud instance with Ubuntu 24.04.
+   - Ensure the instance has sufficient resources (recommended: at least 4GB RAM and 2 vCPUs).
+
+2. **Connect to the Server**
+   - Use SSH to access the server:
+     ```sh
+     ssh root@your-server-ip
+     ```
+
+3. **Update and Upgrade System Packages**
+   ```sh
+   apt update && apt upgrade -y
+   ```
+
+4. **Install T-Pot**
+   - Navigate to the official T-Pot GitHub repository: [https://github.com/telekom-security/tpotce](https://github.com/telekom-security/tpotce)
+   - Run the installation script:
+     ```sh
+     wget https://github.com/telekom-security/tpotce/raw/master/install.sh
+     chmod +x install.sh
+     ./install.sh
+     ```
+   - Follow the installation prompts to complete the setup.
+
+5. **Reboot the Server**
+   ```sh
+   reboot
+   ```
+
+6. **Access T-Pot Dashboard**
+   - After rebooting, access the T-Pot web interface at:
+     ```
+     https://your-server-ip:64297
+     ```
+   - Log in using the credentials set during installation.
+
+## Features
+- Collects data on malicious activities targeting the server.
+- Provides a web-based dashboard for monitoring attacks.
+- Includes multiple honeypot services to emulate different types of systems.
+
+## Notes
+- Ensure that the necessary firewall rules are configured to allow access to the T-Pot dashboard.
+- Regularly update T-Pot to maintain security and efficiency.
+
+## Resources
+- [T-Pot Documentation](https://github.com/telekom-security/tpotce)
+- [Vultr Documentation](https://www.vultr.com/docs/)
+
