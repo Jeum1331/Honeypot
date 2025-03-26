@@ -35,7 +35,7 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
 
 4. **Install T-Pot**
    - Navigate to the official T-Pot GitHub repository: [https://github.com/telekom-security/tpotce](https://github.com/telekom-security/tpotce)
-   - Run the installation script(not as root):
+   - Run the installation script (not as root):
      ```sh
      env bash -c "$(curl -sL https://github.com/telekom-security/tpotce/raw/master/install.sh)"
      ```
