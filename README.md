@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Honeypot Deployment with T-Pot on Vultr</title>
-</head>
-<body>
-<h1>Honeypot Deployment with T-Pot on Vultr</h1>
+&lt;h1&gt;Honeypot Deployment with T-Pot on Vultr&lt;/h1&gt;
+
 &lt;h2&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This project involves setting up a Honeypot using &lt;a href=&quot;https://github.com/telekom-security/tpotce&quot;&gt;T-Pot&lt;/a&gt; on a cloud-based instance. The deployment was carried out on &lt;a href=&quot;https://www.vultr.com/&quot;&gt;Vultr&lt;/a&gt; using an Ubuntu 24.04 server.&lt;/p&gt;
 
@@ -38,8 +31,9 @@
 wget https://github.com/telekom-security/tpotce/raw/master/install.sh
 chmod +x install.sh
 ./install.sh
-</code></pre>
-<p>Follow the installation prompts to complete the setup.</p>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Follow the installation prompts to complete the setup.&lt;/p&gt;
+
 &lt;h3&gt;5. Reboot the Server&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;reboot&lt;/code&gt;&lt;/pre&gt;
 
@@ -66,5 +60,5 @@ chmod +x install.sh
     &lt;li&gt;&lt;a href=&quot;https://github.com/telekom-security/tpotce&quot;&gt;T-Pot Documentation&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;https://www.vultr.com/docs/&quot;&gt;Vultr Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</body>
-</html>
+
+
