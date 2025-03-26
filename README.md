@@ -74,7 +74,15 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
         <li><strong>Attack Map:</strong> Displays live attack attempts and scanning activities targeting the honeypot.</li>
         <li><strong>Kibana Dashboard:</strong> Provides an in-depth visualization of collected attack data.</li>
         <li><strong>Kibana Discover Board:</strong> Allows for detailed exploration and filtering of logged attack events.</li>
+        <table>
+<tr>
+       <img src="https://github.com/user-attachments/assets/96646f70-716a-43b4-b429-0ab695ea90e4" width="700"></td>
+        <img src="https://github.com/user-attachments/assets/8f54d550-13c7-405e-9288-eb9ab42ec2df" width="700"></td>
+       </tr>
+</table>
         <li><strong>Cisco Talos:</strong> Enables checking the reputation and integrity of attacking IP addresses.</li>
+        <img src="https://github.com/user-attachments/assets/6610ff04-3f89-4041-afa4-681d0d0d27de" width="700">
+
     </ul>
     
 
