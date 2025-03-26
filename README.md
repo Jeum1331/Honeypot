@@ -32,6 +32,7 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
    ```sh
    apt update && apt upgrade -y
    ```
+   <img src="https://github.com/user-attachments/assets/9526dfcd-0846-4a69-ba0e-d7a1406054f7" width="750">
 
 4. **Install T-Pot**
    - Navigate to the official T-Pot GitHub repository: [https://github.com/telekom-security/tpotce](https://github.com/telekom-security/tpotce)
@@ -39,6 +40,7 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
      ```sh
      env bash -c "$(curl -sL https://github.com/telekom-security/tpotce/raw/master/install.sh)"
      ```
+     <img src="https://github.com/user-attachments/assets/eb853363-1d2b-4b40-81ad-0ceb13988484" width="750">
    - Follow the installation prompts to complete the setup.
 
 5. **Reboot the Server**
