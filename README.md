@@ -103,6 +103,8 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
 
 ## Notes
 - Ensure that the necessary firewall rules are configured to allow access to the T-Pot dashboard.
+<img src="https://github.com/user-attachments/assets/940d2c2e-89a1-4791-a98b-72bb1dfea24f" width="700">
+
 - Regularly update T-Pot to maintain security and efficiency.
 
 ## Resources
