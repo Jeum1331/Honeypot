@@ -105,7 +105,7 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
 - Ensure that the necessary firewall rules are configured to allow access to the T-Pot dashboard.
  <table>
  <tr>
-    <td><b>When setting Hneypot up, use these rules</b></td>
+    <td><b>When setting honeypot up, use these rules</b></td>
     <td><img src="https://github.com/user-attachments/assets/95f32348-c065-4fb6-a856-9b38ddb87e9c" width="700"></td>
  </tr>   
 <tr>
