@@ -95,7 +95,8 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
         <li><strong>Cisco Talos:</strong> Enables checking the reputation and integrity of attacking IP addresses.</li>
         <img src="https://github.com/user-attachments/assets/5281a097-7837-4053-a381-71f6d54a6849" width="700">
         <img src="https://github.com/user-attachments/assets/617c9ef1-bc92-4314-b072-4ce7ec5ce66b" width="700">
-
+        
+   <li><strong>CyberChef:</strong> A versatile data analysis tool that allows users to decode, decrypt, and manipulate data for further investigation.</li>  
 
   </ul>
     
