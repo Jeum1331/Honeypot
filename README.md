@@ -8,6 +8,9 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
 - A deployed Ubuntu 24.04 server instance
 - SSH access to the server
 
+## Video Tutorial
+TBD
+
 ## Installation Steps
 
 1. **Deploy Ubuntu 24.04 on Vultr**
