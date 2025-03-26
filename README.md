@@ -93,7 +93,7 @@ TBD
 <tr>
        <td><img src="https://github.com/user-attachments/assets/96646f70-716a-43b4-b429-0ab695ea90e4" width="700"></td>
         <td><img src="https://github.com/user-attachments/assets/8f54d550-13c7-405e-9288-eb9ab42ec2df" width="700"></td>
-        <td><img src="![image](https://github.com/user-attachments/assets/19933b08-6073-4c20-aa77-9f86f9d71148" width="700"></td>
+        <td><img src="https://github.com/user-attachments/assets/19933b08-6073-4c20-aa77-9f86f9d71148" width="700"></td>
 </tr>
 </table>
         <li><strong>Cisco Talos:</strong> Enables checking the reputation and integrity of attacking IP addresses.</li>
