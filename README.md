@@ -81,9 +81,9 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
        </tr>
        <tr>
        <td><img src="https://github.com/user-attachments/assets/9d3d718a-ea40-45d1-b8ef-b86eef1ea586" width="700"></td>
-       <td><img src="https://github.com/user-attachments/assets/1ee5ec28-bb83-496d-a9c5-56d58115a73f" width="700></td>
-      </tr>
-    </table>       
+       <td><img src="https://github.com/user-attachments/assets/1ee5ec28-bb83-496d-a9c5-56d58115a73f" width="700"></td>
+       </tr>
+      </table>
        
    <li><strong>Kibana Discover Board:</strong> Allows for detailed exploration and filtering of logged attack events.</li>
         <table>
