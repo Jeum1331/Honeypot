@@ -68,6 +68,16 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
 - Provides a web-based dashboard for monitoring attacks.
 - Includes multiple honeypot services to emulate different types of systems.
 
+ <h2>Monitoring and Analysis</h2>
+    <p>Once deployed, T-Pot provides various tools to monitor and analyze attacks in real-time:</p>
+    <ul>
+        <li><strong>Attack Map:</strong> Displays live attack attempts and scanning activities targeting the honeypot.</li>
+        <li><strong>Kibana Dashboard:</strong> Provides an in-depth visualization of collected attack data.</li>
+        <li><strong>Kibana Discover Board:</strong> Allows for detailed exploration and filtering of logged attack events.</li>
+        <li><strong>Cisco Talos:</strong> Enables checking the reputation and integrity of attacking IP addresses.</li>
+    </ul>
+    
+
 ## Notes
 - Ensure that the necessary firewall rules are configured to allow access to the T-Pot dashboard.
 - Regularly update T-Pot to maintain security and efficiency.
