@@ -74,6 +74,7 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
         <li><strong>Attack Map:</strong> Displays live attack attempts and scanning activities targeting the honeypot.</li>
       <img src="https://github.com/user-attachments/assets/56e48e12-b2bb-48fa-8225-49f1b06e3a23" width="700">
         <li><strong>Kibana Dashboard:</strong> Provides an in-depth visualization of collected attack data.</li>
+      <table>
        <tr>
        <td><img src="https://github.com/user-attachments/assets/6918902b-92b2-425f-b733-797ef9e9910b" width="700"></td>
        <td><img src="https://github.com/user-attachments/assets/0918d40a-cf94-4338-ab33-9f26a93cd708" width="700"></td>
@@ -81,8 +82,8 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
        <tr>
        <td><img src="https://github.com/user-attachments/assets/9d3d718a-ea40-45d1-b8ef-b86eef1ea586" width="700"></td>
        <td><img src="https://github.com/user-attachments/assets/1ee5ec28-bb83-496d-a9c5-56d58115a73f" width="700></td>
-        </tr>
-</table>       
+      </tr>
+    </table>       
         <li><strong>Kibana Discover Board:</strong> Allows for detailed exploration and filtering of logged attack events.</li>
         <table>
 <tr>
@@ -92,6 +93,8 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
 </table>
         <li><strong>Cisco Talos:</strong> Enables checking the reputation and integrity of attacking IP addresses.</li>
         <img src="https://github.com/user-attachments/assets/5281a097-7837-4053-a381-71f6d54a6849" width="700">
+        <img src="https://github.com/user-attachments/assets/617c9ef1-bc92-4314-b072-4ce7ec5ce66b" width="700">
+
 
   </ul>
     
