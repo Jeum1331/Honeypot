@@ -24,8 +24,7 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
 <table>
 <tr>
 <td><img src="https://github.com/user-attachments/assets/34437006-6b7a-4850-aac2-63f9b1f63748" width="700"></td>
-<td><img src="https://github.com/user-attachments/assets/045160f7-f0fc-4a6e-8964-73258377aed3" width="700"></td>
-  
+<td><img src="https://github.com/user-attachments/assets/045160f7-f0fc-4a6e-8964-73258377aed3" width="700"></td>  
 </tr>
 </table>
 
@@ -54,7 +53,15 @@ This project involves setting up a Honeypot using [T-Pot](https://github.com/tel
      ```
      https://your-server-ip:64297
      ```
+     <img src="https://github.com/user-attachments/assets/e9ca83d7-3c2b-41d7-bbd8-62b3651ef1db" withd="700">
+
    - Log in using the credentials set during installation.
+     <table>
+<tr>
+<td><img src="https://github.com/user-attachments/assets/89927694-6c97-43bc-b406-984e973bff03" withd="700"></td>
+<td><img src="https://github.com/user-attachments/assets/5abaabea-8e11-48cd-9d98-fc2a8e6e483e" withd="700"></td>
+</tr>
+</table>
 
 ## Features
 - Collects data on malicious activities targeting the server.
